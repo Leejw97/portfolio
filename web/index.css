@@ -1,0 +1,360 @@
+html,
+body,
+h1,
+ul {
+  margin: 0;
+  padding: 0;
+  outline: 1px solid orange;
+  overflow: hidden;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+/* 배경화면 */
+#top {
+  width: 100%;
+  height: 94vh;
+  background-color: rgb(22, 150, 162);
+}
+
+.folders {
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding-top: 70px;
+}
+
+.folders>div {
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 40px;
+  margin-left: 76px;
+}
+
+/* .computer {
+  padding-top: 5%;
+} */
+
+.folders>div>img {
+  width: 58px;
+  display: block;
+}
+
+span {
+  background: none;
+  text-align: center;
+}
+
+
+
+/* 모달창 */
+/* .computerModal, */
+.aboutModal,
+/* .timelineModal, */
+.portfolioModal,
+.contactModal {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  left: 450px;
+  bottom: 500px;
+  background-color: #b6b6b6;
+  display: none;
+}
+
+.computerModal {
+  position: relative;
+  width: 40%;
+  height: 250px;
+  left: 450px;
+  bottom: 500px;
+  background-color: #b6b6b6;
+  display: none;
+}
+
+
+.timelineModal {
+  position: relative;
+  width: 40%;
+  height: 280px;
+  left: 450px;
+  bottom: 500px;
+  background-color: #b6b6b6;
+  display: none;
+}
+
+.modalTop {
+  background-color: blue;
+  width: 99%;
+  height: 30px;
+  margin: 0 auto;
+  position: relative;
+  top: 4px;
+}
+
+.computerClose,
+.aboutClose,
+.timelineClose,
+.portfolioClose,
+.contactClose {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: #b6b6b6;
+  left: 95%;
+  top: -16px;
+}
+
+.modalTitle {
+  color: white;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
+.closeButton {
+  text-align: center;
+  position: relative;
+  top: -2px;
+}
+
+.inner {
+  text-align: center;
+  position: relative;
+  top: 30px;
+  background-color: white;
+  width: 97%;
+  left: 10px;
+}
+
+.innerBottom {
+  width: 100%;
+}
+
+/* inner 밑부분 */
+
+/* 내 컴퓨터 */
+.comInnerLeft {
+  border-style: outset;
+  border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153) rgb(255, 255, 255);
+  width: 70%;
+  position: relative;
+  top: 132px;
+  height: 30px;
+  display: inline-block;
+}
+
+.comInnerRight {
+  border-style: outset;
+  border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153) rgb(255, 255, 255);
+  position: relative;
+  width: 28.5%;
+  display: inline-block;
+  left: 70.8%;
+  height: 30px;
+  top: 93px;
+}
+
+/* 타임라인 */
+.tlInnerLeft {
+  border-style: outset;
+  border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153) rgb(255, 255, 255);
+  width: 70%;
+  position: relative;
+  top: 49px;
+  height: 30px;
+  display: inline-block;
+}
+
+.tlInnerRight {
+  border-style: outset;
+  border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153) rgb(255, 255, 255);
+  position: relative;
+  width: 28.5%;
+  display: inline-block;
+  left: 70.8%;
+  height: 30px;
+  top: 10px;
+}
+
+/* 포트폴리오 */
+.portInnerLeft {
+  border-style: outset;
+  border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153) rgb(255, 255, 255);
+  width: 70%;
+  position: relative;
+  top: 83px;
+  height: 30px;
+  display: inline-block;
+}
+
+.portInnerRight {
+  border-style: outset;
+  border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153) rgb(255, 255, 255);
+  position: relative;
+  width: 28.5%;
+  display: inline-block;
+  left: 70.8%;
+  height: 30px;
+  top: 44px;
+}
+
+
+
+.innerLeft {
+  border-style: outset;
+  border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153) rgb(255, 255, 255);
+  width: 70%;
+  position: relative;
+  top: 45px;
+  height: 30px;
+  display: inline-block;
+}
+
+.innerRight {
+  border-style: outset;
+  border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153) rgb(255, 255, 255);
+  position: relative;
+  width: 28.5%;
+  display: inline-block;
+  left: 70.8%;
+  height: 30px;
+  top: 6px;
+}
+
+
+
+/* alert */
+.alert {
+  /* width: 300px; */
+  height: 100px;
+  display: none;
+}
+
+
+.leftAlert {
+  transform: rotate(-90deg);
+  width: 248px;
+  height: 45%;
+  background-color: blue;
+  color: white;
+  position: relative;
+  /* top: -17px; */
+  display: inline-block;
+  /* height: 96px; */
+  bottom: 106.5px;
+  right: 102px;
+}
+
+
+.rotate {
+  left: 65px;
+  position: relative;
+  top: 3px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.rightAlert {
+  width: 180px;
+  height: 248px;
+  background-color: #b6b6b6;
+  color: white;
+  position: relative;
+  bottom: 253px;
+  left: 45px;
+}
+
+.rightAlert>div {
+  height: 25%;
+}
+
+.rightAlert>div:hover {
+  background-color: blue;
+}
+
+.rightAlert>div>p {
+  margin: 0;
+}
+
+/* 시작줄 */
+#bottom {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: calc(var(--vh, 1vh) * 6);
+  /* 6vh */
+  background: #b6b6b6;
+  border-style: outset;
+  border-color: #fff #999 #fff #fff;
+  border-width: 2px;
+}
+
+button>img {
+  width: 30px;
+}
+
+button {
+  border-style: outset;
+  border-color: rgb(255, 255, 255) rgb(153, 153, 153) rgb(153, 153, 153) rgb(255, 255, 255);
+  background: url(img/window.png) no-repeat center left 100px;
+  width: 100px;
+  height: 100%;
+}
+
+#btfolders {
+  display: flex;
+}
+
+#btfolders>.bottomComputer>img,
+#btfolders>.bottomContact>img {
+  width: 30px;
+  padding-top: 0;
+  margin-top: 7px;
+  margin-left: 15px;
+  margin-right: 7px;
+}
+
+.bottomTime {
+  border-style: outset;
+  border-color: rgb(153, 153, 153) rgb(255, 255, 255) rgb(255, 255, 255) rgb(153, 153, 153);
+  width: 100px;
+  margin-left: auto;
+  line-height: 5vh;
+  text-align: center;
+}
+
+
+
+
+
+/* 타이핑css */
+p.typing-txt {
+  display: none;
+}
+
+.typing {
+  /*position: absolute;*/
+  display: inline-block;
+  animation-name: cursor;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+
+/* @keyframes cursor {
+  0% {
+    border-right: 1px solid #fff
+  }
+
+  50% {
+    border-right: 1px solid #000
+  }
+
+  100% {
+    border-right: 1px solid #fff
+  }
+} */

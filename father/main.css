@@ -1,0 +1,312 @@
+/* common */
+html,
+body,
+h1,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* body * {
+  outline: 1px solid tomato;
+} */
+
+.page {
+  height: 73vh;
+}
+
+.page2 {
+  height: 100vh;
+}
+
+section {
+  outline: 1px solid black;
+}
+
+.cont2 {
+  text-align: center;
+  font-size: 11px;
+  font-weight: bolder;
+  width: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.scbar::-webkit-scrollbar {
+  /* 전체 스크롤바 크기변경 */
+  width: 5px;
+}
+
+.scbar::-webkit-scrollbar-thumb {
+  /* 스크롤바 */
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.scbar::-webkit-scrollbar-track {
+  /* 스크롤바 트랙 */
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+
+#side>ul>li>a {
+  translate: 5s;
+}
+
+
+
+
+
+/* main */
+.wrap {
+  max-width: 1657px;
+  margin: 0 auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+#side {
+  position: fixed;
+  top: 60px;
+  width: 20%;
+  /* height: 320px; */
+  font-size: 1.5vw;
+  font-weight: bolder;
+  /* background-color: rgb(255, 181, 181); */
+}
+
+#side ul li:first-child {
+  margin-bottom: 3vw;
+}
+
+#side ul li:last-child {
+  margin-top: 5vw;
+}
+
+#side ul li {
+  padding-bottom: 10px;
+}
+
+#side ul li a {
+  color: black;
+}
+
+#side ul li a:hover {
+  text-decoration: underline;
+}
+
+#cont {
+  max-width: 1300px;
+  padding-left: 20vw;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+
+/* .cont3 {
+  background-color: bisque;
+} */
+
+/* .cont4 { */
+/* background-image: url(main2.jpg);
+  background-repeat: no-repeat; */
+/* background-color: cadetblue; */
+/* } */
+
+/* .cont5 {
+  background-color: thistle;
+}
+
+.cont6 {
+  background-color: cadetblue;
+} */
+
+.main1 {
+  background-image: url(img/main1.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  color: white;
+}
+
+.main2 {
+  background-image: url(img/main2.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  color: white;
+}
+
+.main3 {
+  background-image: url(img/main3.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  color: white;
+}
+
+.main1>a:hover,
+.main2>a:hover,
+.main3>a:hover {
+  font-size: 2.5vw;
+}
+
+h1 {
+  text-align: center;
+  height: 20vh;
+  font-size: 4vw;
+  line-height: 20vh;
+  background-color: red;
+  color: white;
+}
+
+.ex1 {
+  font-size: 3vw;
+}
+
+.ex {
+  /* line-height: 15vh; */
+  width: 50%;
+  height: 100%;
+}
+
+.ex1 {
+  line-height: 15vh;
+}
+
+.ex2 {
+  line-height: 5vh;
+
+  /* media query시 */
+  /* overflow: scroll; */
+}
+
+.ex2>p {
+  margin: 0 auto;
+}
+
+h3 {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  line-height: 50vh;
+  outline: 1px solid black;
+}
+
+h4 {
+  margin: 0 auto;
+}
+
+/* cont2 */
+.cont2 {
+  height: 100%;
+}
+
+.cont2 li {
+  width: 33.3%;
+  line-height: 50vh;
+}
+
+.cont2 ul {
+  display: flex;
+  justify-content: space-between
+}
+
+#contName {
+  display: flex;
+  outline: 1px solid black;
+}
+
+#contName>.ex {
+  height: 15vh;
+  margin: 50px 0px;
+  width: 50%;
+}
+
+.cont2>ul {
+  /* height: 100%; */
+  height: 70%;
+}
+
+.cont2ul>li {
+  font-size: 2vw;
+}
+
+.cont2ul>li>a {
+  color: white;
+}
+
+.content2 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  text-align: center;
+}
+
+.content2>div {
+  width: 100%;
+}
+
+.content2>h3>a:hover,
+.content2>div>h3>a:hover {
+  font-size: 2vw;
+}
+
+
+
+
+/* cont3~ */
+.content {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+
+.page2>h4 {
+  height: 6%;
+  background-color: white;
+  font-size: 2rem;
+}
+
+
+/* cont6 */
+.map>a>img {
+  width: 100%;
+}
+
+.mapName {
+  /* margin: 5%; */
+  background-color: white;
+}
+
+h5 {
+  margin: 0 auto;
+}
+
+.sns>ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin-top: 4%;
+}
+
+.sns>ul>li {
+  width: 33%;
+  text-align: center;
+  line-height: 250%;
+}
+
+.sns>ul>li>a {
+  height: 5vh;
+  outline: 1px solid black;
+}

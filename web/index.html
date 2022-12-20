@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>leevelope</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div>
+    <div id="top">
+      <!-- folders -->
+      <div class="folders">
+        <div class="computer">
+          <img src="img/computer.png" id="computer" alt="내컴퓨터">
+          <div><span>내 컴퓨터</span></div>
+        </div>
+
+        <div class="about">
+          <img src="img/about.png" id="about" alt="내자료실">
+          <span>내 자료실</span>
+        </div>
+
+        <div class="timeline">
+          <img src="img/timeline.png" id="timeline" alt="타임라인">
+          <span>타임라인</span>
+        </div>
+
+        <div class="portfolio">
+          <img src="img/portfolio.png" id="portfolio" alt="포트폴리오">
+          <span>포트폴리오</span>
+        </div>
+
+        <div class="contact">
+          <img src="img/contact.png" id="contact" alt="연락처">
+          <span>Contact</span>
+        </div>
+      </div>
+      <!-- folders -->
+
+      <!-- modal -->
+      <div id="modal">
+
+        <div class="computerModal">
+          <div class="modalTop">
+            <div class="modalTitle">내 컴퓨터</div>
+            <div class="computerClose">
+              <div class="closeButton">X</div>
+            </div>
+          </div>
+          <div class="modalInner">
+            <div class="inner">
+              <p>프론트엔드 이정우 컴퓨터입니다.</p>
+            </div>
+            <div class="innerBottom">
+              <div class="comInnerLeft">
+
+              </div>
+              <div class="comInnerRight">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="aboutModal">
+          <div class="modalTop">
+            <div class="modalTitle">내 자료실</div>
+            <div class="aboutClose">
+              <div class="closeButton">X</div>
+            </div>
+          </div>
+          <div class="modalInner">
+            <div class="inner">
+              <p class="typing-txt">안녕하세요 프론트엔드 개발자 이정우입니다.</p>
+              <p class="typing-txt">현재 사이트는 취미로 만들어 본 사이트로</p>
+              <p class="typing-txt">저에 대한 자세한 내용은</p>
+              <p class="typing-txt">포트폴리오 페이지에서 확인하실 수 있습니다.</p>
+              <p class="typing-txt">읽어봐주셔서 감사합니다.</p>
+              <p class="typing"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timelineModal">
+          <div class="modalTop">
+            <div class="modalTitle">타임라인</div>
+            <div class="timelineClose">
+              <div class="closeButton">X</div>
+            </div>
+          </div>
+          <div class="modalInner">
+            <div class="inner">
+              <p>천안 신당고등학교(이과)</p>
+              <p>아산 폴리텍 대학교(정보통신시스템)</p>
+              <p>강남 그린아카데미(프론트엔드)</p>
+              <p>한국소프트웨어기술진흥협회(풀스택)</p>
+            </div>
+            <div class="innerBottom">
+              <div class="tlInnerLeft">
+
+              </div>
+              <div class="tlInnerRight">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolioModal">
+          <div class="modalTop">
+            <div class="modalTitle">포트폴리오</div>
+            <div class="portfolioClose">
+              <div class="closeButton">X</div>
+            </div>
+          </div>
+          <div class="modalInner">
+            <div class="inner">
+              <p><a href="https://github.com/leevelope/web">현재페이지</a></p>
+              <p><a href="http://www.5780005.com/m/info_list.php?mm_idx=93&part=%B8%C5%B8%C5">포트폴리오</a></p>
+              <p><a href="http://www.5780005.com/m/info_list.php?mm_idx=93&part=%B8%C5%B8%C5">주무니요</a></p>
+              <p><a href="http://www.5780005.com/m/info_list.php?mm_idx=93&part=%B8%C5%B8%C5">리움 스토어</a></p>
+              <p><a href="http://www.5780005.com/m/info_list.php?mm_idx=93&part=%B8%C5%B8%C5">부동산</a></p>
+            </div>
+            <div class="innerBottom">
+              <div class="portInnerLeft">
+
+              </div>
+              <div class="portInnerRight">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contactModal">
+          <div class="modalTop">
+            <div class="modalTitle">Contact</div>
+            <div class="contactClose">
+              <div class="closeButton">X</div>
+            </div>
+          </div>
+          <div class="modalInner">
+            <div class="inner">
+              <p>phone</p>
+              <p>010-8335-2805</p>
+              <p>email</p>
+              <p>leevelope@naver.com</p>
+              <p>git</p>
+              <p>https://github.com/leevelope</p>
+            </div>
+            <div class="innerBottom">
+              <div class="innerLeft">
+
+              </div>
+              <div class="innerRight">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- modal -->
+
+
+      <div class="alert">
+        <div class="leftAlert">
+          <span class="rotate">leevelope</span>
+        </div>
+        <div class="rightAlert">
+          <div>
+            <p>휴지통</p>
+          </div>
+          <div>내 지갑</div>
+          <div>내 뱃속</div>
+          <div>내 지갑</div>
+        </div>
+      </div>
+
+    </div>
+    <!-- top -->
+
+    <div id="bottom">
+      <!-- bottom -->
+      <div id="start">
+        <button type="button" class="bottomButton"><img src="img/window.png"></button>
+        <!-- 
+        <div class="trash"></div>
+
+        <div class="wallet"></div>
+
+        <div class="trash"></div> -->
+      </div>
+      <!-- start -->
+
+      <div id="btfolders">
+        <div class="bottomComputer">
+          <img src="img/computer.png" id="computer" alt="내컴퓨터">
+        </div>
+
+        <div class="bottomContact">
+          <img src="img/contact.png" id="contact" alt="연락처">
+        </div>
+      </div>
+
+      <div class="bottomTime">
+        <span id="clock">clock</span>
+        <span id="apm">ampm</span>
+      </div>
+      <!-- btfolders -->
+    </div>
+    <!-- bottom -->
+
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>

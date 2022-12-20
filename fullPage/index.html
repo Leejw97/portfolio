@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>프론트엔드 개발자 이정우</title>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/autoScroll.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/side.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="main2.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/timeline.css">
+  <link rel="stylesheet" href="css/skill.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+  <!-- 1. 상단영역 -->
+  <div id="top">
+    <header class="top ibx">
+      <!-- 1-1.로고 -->
+      <!-- <h1 id="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="이정우 포트폴리오">
+                </a>
+            </h1> -->
+      <!-- 1-2.GNB메뉴 -->
+      <nav class="gnb">
+        <ul>
+          <li class="on">
+            <a href="#pg1">About</a>
+          </li>
+          <li>
+            <a href="#pg2">TimeLine</a>
+          </li>
+          <li>
+            <a href="#pg3">Skills</a>
+          </li>
+          <li>
+            <a href="#pg4">Portfolio</a>
+          </li>
+          <li>
+            <a href="#pg5">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  <!-- 2. 페이지영역 -->
+  <!-- About page -->
+  <section id="pg1" class="page">
+    <div>
+      <h1 class="headName1">About</h1>
+    </div>
+
+    <div id="abid">
+      <div id="about1">
+        <p>About</p>
+      </div>
+
+      <div id="about2">
+        <div class="aboutcl">
+          <p>이름: 이정우</p>
+          <p>생년월일: 1997년 8월 1일</p>
+          <p>거주지: 서울, 천안</p>
+        </div>
+
+        <div class="aboutcl">
+          <p>안녕하세요. 신입 웹퍼블리셔&프론트엔드 이정우입니다.</p>
+          <p>어느 집단에서도 쉽게 녹아들어 팀 소통에 장점이 있는 저는,</p>
+          <p>HTML/CSS/JAVA SCRIPT/JQUERY 등 웹페이지 디자인을 추구하고 있습니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TimeLine page -->
+  <section id="pg2" class="page">
+    <div>
+      <h1 class="headName">TimeLine</h1>
+    </div>
+
+    <div id="tlid">
+      <div class="tlcl">
+        <ul class="tlul">
+          <li>date</li>
+          <li>기관</li>
+          <li>정보</li>
+        </ul>
+        <ul class="tlul2">
+          <li>13.03~16.02</li>
+          <li>천안 신당고등학교</li>
+          <li>이과</li>
+        </ul>
+        <ul class="tlul2">
+          <li>19.03~21.02</li>
+          <li>아산 폴리텍 대학교</li>
+          <li>정보통신 시스템학과</li>
+        </ul>
+        <ul class="tlul2">
+          <li>21.11~21.12</li>
+          <li>그린컴퓨터 아카데미 강남</li>
+          <li>프론트엔드 웹개발</li>
+        </ul>
+        <ul class="tlul2">
+          <li>22.03~22.08</li>
+          <li>한국 소프트웨어 기술진흥 협회</li>
+          <li>MSA Full-Stack SW 개발자 양성과정</li>
+        </ul>
+        <!-- <div class="tldiv">
+                    <div class="tltitle">date</div>
+                    <div>13.03~16.02</div>
+                    <div>19.03~21.02</div>
+                    <div>21.11~21.12</div>
+                    <div>22.03~22.08</div>
+                </div>
+
+                <div class="tldiv">
+                    <div class="tltitle">기관</div>
+                    <div>천안 신당고등학교</div>
+                    <div>아산 폴리텍 대학교</div>
+                    <div>그린컴퓨터 아카데미 강남</div>
+                    <div>한국 소프트웨어 기술진흥 협회</div>
+                </div>
+
+                <div class="tldiv">
+                    <div class="tltitle">정보</div>
+                    <div>이과</div>
+                    <div>정보통신 시스템학과</div>
+                    <div>프론트엔드 웹개발</div>
+                    <div>MSA Full-Stack SW 개발자 양성과정</div>
+                </div> -->
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- skill page -->
+  <section id="pg3" class="page">
+    <div>
+      <h1 class="headName">Skill</h1>
+    </div>
+
+    <div id="skid">
+      <div>
+        <ul class="list">
+          <li class="tab-button" data-id="0">언어/개발 툴</li>
+          <li class="tab-button orange" data-id="1">데이터 베이스</li>
+          <li class="tab-button" data-id="2">개발도구</li>
+          <li class="tab-button" data-id="3">Framework</li>
+          <li class="tab-button" data-id="4">형상관리</li>
+        </ul>
+        <div class="tab-content">
+          <p>HTML, CSS, JAVASCRIPT, REACT</p>
+          <p>SPRING TOOLS4, Servlet, JSP, JQUERY</p>
+        </div>
+        <div class="tab-content show">
+          <p>Oracle, DBeaver</p>
+          <!-- <img src="img/list.PNG"> -->
+        </div>
+        <div class="tab-content">
+          <p>eclips, visual studio</p>
+        </div>
+        <div class="tab-content">
+          <p>Spring Framework</p>
+        </div>
+        <div class="tab-content">
+          <p>Git Hub</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio -->
+  <section id="pg4" class="page">
+    <div>
+      <h1 class="headName">Portfolio</h1>
+    </div>
+
+    <div id="ptid">
+      <main id="gbx">
+        <!-- 갤러리박스 -->
+        <div class="gbx">
+          <div class="kk">
+
+            <!-- <a href="https://github.com/Leejw97/myTraning"> -->
+            <ul>리움스토어</ul>
+            <li id="login"><img src="img/leeumMain.PNG"></li>
+
+            <li>
+              <p>리움스토어 구현 페이지</p>
+              <p>미디어쿼리를 포함한</p>
+              <p>리움스토어 구현페이지</p>
+              <p>처음 시도해보았던 개인 프로젝트 입니다.</p>
+              <a href="https://github.com/Leejw97/myTraning/tree/main/PP" target="_blank">Git Hub</a>
+            </li>
+          </div>
+
+
+          <div class="kk">
+            <ul>주무니요</ul>
+            <li><img src="img/zumuniyoMain.PNG"></li>
+
+            <li>
+              <p>비대면 주문 시스템</p>
+              <p>shop 부분을 백/프론트 둘 다 사용한</p>
+              <p>매장상세와 매장관리를 담당한</p>
+              <p>팀프로젝트 입니다.</p>
+              <a href="https://github.com/JunHeeMyung/zumuniyo-main" target="_blank">Git Hub(Back)</a>
+              <a href="https://github.com/JunHeeMyung/zumuniyo-react" target="_blank">Git Hub(Front)</a>
+            </li>
+          </div>
+
+          <div class="kk">
+            <ul>포트폴리오</ul>
+            <li><img src="img/main.PNG"></li>
+
+            <li>
+              <p>현재 포트폴리오 페이지</p>
+              <p>학원과 강의를 통해</p>
+              <p>공부하면서 만들어본 </p>
+              <p>개인 포트폴리오 페이지입니다.</p>
+              <a href="https://github.com/Leejw97/myTraning" target="_blank">Git Hub</a>
+            </li>
+          </div>
+
+          <div class="kk">
+            <ul>VOGUE</ul>
+            <li><img src="img/vogue.PNG"></li>
+
+            <li>
+              <p>VOGUE</p>
+              <p>학원을 통해</p>
+              <p>공부하면서 만들어본 </p>
+              <p>Vogue 사이트 구현 페이지입니다.</p>
+              <a href="https://github.com/Leejw97/myTraning" target="_blank">Git Hub</a>
+          </div>
+
+          <div class="kk">
+            <ul>부동산 홈페이지</ul>
+            <li><img src="img/father.PNG"></li>
+
+            <li>
+              <p>부동산 사이트</p>
+              <p>아버지의 부동산 사이트를</p>
+              <p>좀 더 보기 편하게 만들어 본</p>
+              <p>html,css 사이트 구현 페이지입니다.</p>
+              <a href="https://github.com/Leejw97/myTraning" target="_blank">Git Hub</a>
+          </div>
+        </div>
+
+        <!-- 이동버튼 -->
+        <a href="#" class="abtn lb">
+          <img src="img/left_btn.png" alt="왼쪽버튼">
+        </a>
+        <a href="#" class="abtn rb">
+          <img src="img/right_btn.png" alt="오른쪽버튼">
+        </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="pg5" class="page">
+    <div>
+      <h1 class="headName">Contact</h1>
+    </div>
+    <div id="ctid">
+      <ul>
+        <li class="ct">Email</li>
+        <li class="ct">leevelope@naver.com</li>
+      </ul>
+
+      <ul>
+        <li class="ct">Git Hub</li>
+        <li class="ct">leevelope@naver.com</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 3.인디케이터(위치표시자) -->
+  <nav class="indic">
+    <ul>
+      <li class="on">
+        <a href="#pg1"><span>About</span></a>
+      </li>
+      <li>
+        <a href="#pg2"><span>TimeLine</span></a>
+      </li>
+      <li>
+        <a href="#pg3"><span>Skills</span></a>
+      </li>
+      <li>
+        <a href="#pg4"><span>Portfolio</span></a>
+      </li>
+      <li>
+        <a href="#pg5"><span>Contact</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <script src="js/skill.js"></script>
+</body>
+
+</html>

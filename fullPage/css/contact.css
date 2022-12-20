@@ -1,0 +1,17 @@
+.ct {
+  color: white;
+  width: 100vw;
+  font-size: 3vw;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+#ctid {
+  margin: 0 auto;
+  margin-top: 10%;
+  color: white;
+  text-align: center;
+}
+
+#ctid>ul {
+  margin-top: 5%;
+}

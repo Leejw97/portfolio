@@ -1,0 +1,56 @@
+#tlid {
+  width: 100%;
+  height: 100%;
+}
+
+.tlcl {
+  width: 70vw;
+  height: 40vh;
+  background-color: white;
+  border-radius: 30px;
+  /* display: table-cell;
+  vertical-align: middle; */
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10%;
+  /* display: flex; */
+  justify-content: space-around
+}
+
+.tlul2:hover {
+  font-size: 1.2vw;
+}
+
+/* .tldiv {
+  height: 20%;
+} */
+
+.tlul {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border-radius: 30px 30px 0px 0px / 30px 30px 30px 30px;
+}
+
+.tlul>li,
+.tlul2>li {
+  width: 30%;
+  margin: auto 0;
+  font-family: 'Gowun Dodum', sans-serif;
+  /* font-size: 1vw; */
+}
+
+.tlul2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 20%;
+}
+
+/* .tlul2>li {
+  width: 30%;
+  margin: auto 0;
+} */
